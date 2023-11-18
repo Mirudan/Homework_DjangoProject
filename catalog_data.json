@@ -1,0 +1,104 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+        "name": "Лампочки",
+        "description": "Все виды лампочек"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+        "name": "Измерительные приборы",
+        "description": "Приборы для измерения уровней освещенности и шума, напряжения и т.д."
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+        "name": "Инструменты",
+        "description": "Все виды инструментов"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+        "name": "Лампочка 7 Ватт",
+        "description": "Светодиодная лампочка, аналог лампы накаливания 60Ватт, свет нейтрально белый",
+        "preview_image": "",
+        "category": 1,
+        "price": 90,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Лампочка 60 Ватт",
+        "description": "Обычная лампочка накаливания",
+        "preview_image": "",
+        "category": 1,
+        "price": 19,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Мультиметр",
+        "description": "Прибор для \"прозвонки\" цепей, измерений силы тока, напряжения, сопротивления",
+        "preview_image": "",
+        "category": 2,
+        "price": 600,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+        "name": "Люксметр",
+        "description": "Прибор для измерения уровня освещенности",
+        "preview_image": "",
+        "category": 2,
+        "price": 3000,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+        "name": "Отвертка PH1x100мм",
+        "description": "Отвертка с крестообразным наконечником PH1, длина рабочей части 100мм, диэлектрическая ручка",
+        "preview_image": "",
+        "category": 3,
+        "price": 150,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+        "name": "Молоток 500гр",
+        "description": "Молоток весом 500гр, с деревянной ручкой без гвоздодера",
+        "preview_image": "",
+        "category": 3,
+        "price": 150,
+        "time_create": "2023-11-18T19:41:00.808Z",
+        "time_update": "2023-11-18T19:41:00.808Z"
+    }
+}
+]
