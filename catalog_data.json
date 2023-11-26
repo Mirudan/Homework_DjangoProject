@@ -29,11 +29,11 @@
     "fields": {
         "name": "Лампочка 7 Ватт",
         "description": "Светодиодная лампочка, аналог лампы накаливания 60Ватт, свет нейтрально белый",
-        "preview_image": "",
+        "photo": "photos/led_7W.jpg",
+        "price": "90.00",
         "category": 1,
-        "price": 90,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:22:42.903Z"
     }
 },
 {
@@ -42,11 +42,11 @@
     "fields": {
         "name": "Лампочка 60 Ватт",
         "description": "Обычная лампочка накаливания",
-        "preview_image": "",
+        "photo": "photos/light_bulb_InnEMUC.jpg",
+        "price": "19.00",
         "category": 1,
-        "price": 19,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:39:03.470Z"
     }
 },
 {
@@ -55,11 +55,11 @@
     "fields": {
         "name": "Мультиметр",
         "description": "Прибор для \"прозвонки\" цепей, измерений силы тока, напряжения, сопротивления",
-        "preview_image": "",
+        "photo": "photos/multimetr_8b1tEx4.jpg",
+        "price": "600.00",
         "category": 2,
-        "price": 600,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:36:26.747Z"
     }
 },
 {
@@ -68,11 +68,11 @@
     "fields": {
         "name": "Люксметр",
         "description": "Прибор для измерения уровня освещенности",
-        "preview_image": "",
+        "photo": "photos/luxmetr_SYqYbRA.png",
+        "price": "3000.00",
         "category": 2,
-        "price": 3000,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:47:33.112Z"
     }
 },
 {
@@ -81,11 +81,11 @@
     "fields": {
         "name": "Отвертка PH1x100мм",
         "description": "Отвертка с крестообразным наконечником PH1, длина рабочей части 100мм, диэлектрическая ручка",
-        "preview_image": "",
+        "photo": "photos/screwdriver.jpg",
+        "price": "150.00",
         "category": 3,
-        "price": 150,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:52:10.178Z"
     }
 },
 {
@@ -94,11 +94,21 @@
     "fields": {
         "name": "Молоток 500гр",
         "description": "Молоток весом 500гр, с деревянной ручкой без гвоздодера",
-        "preview_image": "",
+        "photo": "photos/hammer.JPG",
+        "price": "150.00",
         "category": 3,
-        "price": 150,
         "time_create": "2023-11-18T19:41:00.808Z",
-        "time_update": "2023-11-18T19:41:00.808Z"
+        "time_update": "2023-11-26T13:55:08.001Z"
+    }
+},
+{
+    "model": "catalog.contact",
+    "pk": 1,
+    "fields": {
+        "name": "ООО \"Какая-то компания\"",
+        "address": "г. Где-то там, ул. Переулок какой-то 9",
+        "phone": "+71234567890",
+        "email": "test@test.ru"
     }
 }
 ]
