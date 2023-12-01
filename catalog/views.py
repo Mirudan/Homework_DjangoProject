@@ -5,7 +5,7 @@ from catalog.models import Product, Contact
 
 def index(request):
     product_list = Product.objects.all().order_by('pk')
-    paginator = Paginator(product_list, 5)
+    paginator = Paginator(product_list, 6)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
     context = {
