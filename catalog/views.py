@@ -5,18 +5,6 @@ from django.views.generic import ListView, DetailView
 from catalog.models import Product, Contact
 
 
-def index(request):
-    product_list = Product.objects.all().order_by('pk')
-    paginator = Paginator(product_list, 6)
-    page_number = request.GET.get("page")
-    page_obj = paginator.get_page(page_number)
-    context = {
-        "page_obj": page_obj,
-        'title': 'Каталог товаров'
-    }
-    return render(request, 'catalog/index.html', context)
-
-
 class ProductList(ListView):
     model = Product
     template_name = 'catalog/index.html'
